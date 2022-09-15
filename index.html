@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/eb02f26976.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="weather-app-container">
+    <h1 class="weather-app-title">Weather App</h1>
+    <input type="text" id="city-name" placeholder="Search city by name">
+    <button onclick="onSearch()">Search</button>
+  
+    <h1 id="temperature"></h1>
+    <h2 id="city"></h2>
+    
+    <div class="weather-description-container">
+      <img id="weather-icon" src="">
+      <p id="weather-description"></p>
+    </div>
+    
+    <div class="main-container">
+      <div class="humidity-container">
+        <i class='fas fa-temperature-low'></i>
+        <h3 id="humidity-value"></h3>
+        <p id="humidity-title">Humidity</p>
+      </div>
+      <div class="wind-container">
+        <i class="fas fa-wind"></i>
+        <h3 id="wind-value"></h3>
+        <p id="wind-title">Wind</p>
+      </div>
+      <div class="air-pressure-container">
+        <i class="fas fa-tachometer-alt"></i>
+        <h3 id="air-pressure-value"></h3>
+        <p id="air-pressure-title">Air pressure</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>

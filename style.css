@@ -1,0 +1,78 @@
+html {
+  background: linear-gradient(to top, #E1F5C4, #EDE574);
+  height: 800px;
+}
+
+.weather-app-container {
+  width: 400px;
+  margin: 50px auto;
+  background: linear-gradient(to top, #2F80ED, #56CCF2);
+  color: white;
+  border-radius: 10px;
+  padding: 11px 10px;
+}
+
+.weather-app-container .weather-app-title {
+  text-align: center;
+  color:#ffdd67;
+}
+
+.weather-app-container #city-name {
+  padding: 10px;
+  border-radius: 20px;
+  border: 0;
+  width: 70%;
+}
+
+.weather-app-container button {
+  padding: 12px;
+  border: none;
+  width: 20%;
+  background-color: #ffdd67;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.weather-app-container #temperature {
+  color:#ffdd67;
+  font-size: 42px;
+}
+
+.weather-app-container .weather-description-container {
+  display: flex;
+  align-items: center;
+}
+
+.weather-app-container .main-container {
+  display: flex;
+}
+
+.weather-app-container .main-container .humidity-container {
+  width: 30%;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.weather-app-container .main-container .wind-container {
+  width: 30%;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.weather-app-container .main-container .air-pressure-container {
+  width: 30%;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 10px;
+}
